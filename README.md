@@ -1,0 +1,1 @@
+This example demonstrates a subtle bug in PHP that can occur when using the `unset()` function within a `foreach` loop that iterates over an array.  When you use `unset()` to remove an element, the array's internal indexing changes, leading to unexpected results. The provided solution offers a more robust approach to avoid this issue.
